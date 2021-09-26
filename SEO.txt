@@ -1,0 +1,29 @@
+
+1) Modifique las etiquetas tittle haciendolas un poco mas descriptivas en todas las secciones de la pagina :
+
+INDEX->                     <title>Master-Tech tecnologia informatica  al alcance de la mano </title>
+GALERIA->               <title>galeria con fotos de componentes  informaticos MasterTech</title>
+PRODUCTOS ->       <title>Productos informaticos a la venta tienda MasterTech</title>
+SERVICIOS->           <title>Consultoria Informatica Redes Software, servicios informaticos</title>
+CONTACTO->           <title>Contacto consultas presupuestos MasterTech</title>
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2) Agregue etiquetas <meta> especialmente para cada seccion del sitio cosa que antes no tenia
+
+NDEX->                     <meta name="description" content=" MasterTech es una tienda web Informatica de confianza que ofrece productos informaticos y servicios para clientes exigentes">
+
+GALERIA->               <meta name="description" content=" Galeria de Fotos de productos informaticos y tenoclogicos que se ofrecen en MasterTech">
+
+PRODUCTOS ->       <meta name="description" content="En MasterTech tienda encontra productos informaticos 
+como placas de video, gabinetes, fuentes, motherboards, accesorios gaming y a precios competitivos!!">
+
+SERVICIOS->           <meta name="description" content="MasterTEch te ofrece servicios de consultoria informatica  de altisima calidad.
+Ofrecemos  sesoramiento en Software,Hardware,Redes y tecnologia en general">
+
+CONTACTO->               <meta name="description" content="Completa el formulario para realizar cualquier consulta. 
+Podes pedir un presupuesto de un servicio o producto en la web de MasterTech">
+
+3)Se acomodaron los errores gramaticales que habia en el texto y se mejoro la gramatica y la descripcion en el contenido escrito en general en todo el sitio
+

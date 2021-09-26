@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    font-size: 1.5vw;
+    display: flex;
+    justify-content:space-around;
+    
+    
+}
+
+nav {
+    background-color: black;
+    height: 4vw;
+}
+
+main {
+    background-color: rgb(58, 58, 124);
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+li {
+    list-style: none;
+    font-size: 100%;
+    color: aliceblue;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.sectionGreen {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(21, 151, 53);
+}
+
+.sectionPurple {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(66, 21, 151);
+}
+
+.sectionBrown {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(87, 66, 40);
+}

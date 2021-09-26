@@ -1,0 +1,439 @@
+/*   HEADER */
+
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(242, 242, 242);
+    font-size: 2vw;
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+li {
+    display: inline-block;
+    bottom: 20px;
+    left: 15px;
+    right: 15px;
+    bottom: 40px;
+}
+
+nav a:hover {
+    color: rgb(187, 93, 4);
+    transform: scale(2, 2);
+    transition: all();
+    transition-duration: 1000ms;
+}
+
+ul {
+    text-decoration: none;
+    font-weight: bold;
+    list-style-type: none;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tituloPrincipal {
+    font-size: 3vw;
+    color: rgb(187, 93, 4);
+    text-align: center;
+}
+
+.encabeza2{
+
+font-family: 'Roboto', ;
+font-style: oblique;
+font-weight: bold;
+color: rgb(rgb(255, 156, 8), green, blue);
+text-align: center;
+font-size: 1.5vw;
+margin-left: 2px;
+margin-bottom: 10px;
+
+}
+
+nav {
+    position: sticky;
+    top: 0px;
+    background-color: black;
+}
+
+h2 {
+   /* color: rgba(0, 0, 0, 0.966);*/
+   color: rgba(0, 0, 0, 0.678);
+    font-size: 2vw;
+    margin-left: 15px;
+    text-align: center;
+}
+
+header {
+    background-color:darken(orange,35);
+    height: auto;
+}
+
+hr {
+    border-style: inherit;
+    border-color: black;
+    background-color: black;
+}
+
+.carrouselSections h5, p{
+
+
+color: rgb(187, 93, 4);
+font-size: x-large;
+font-weight: bolder;
+
+}
+
+/*   HEADER */
+
+section {
+    margin-bottom: 15px;
+}
+
+p i {
+    font-style: oblique;
+    font-weight: lighter;
+    font-size: 100%;
+    color: rgba(184, 94, 29, 0.856);
+    font-weight: bolder;
+    height: 100%;
+   
+}
+
+/* PRODUCTOS-TABLA */
+
+.flexible {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: inherit;
+}
+
+
+thead tr th {
+
+    color: rgba(184, 94, 29, 0.856);
+}
+
+
+.titulosTabla {
+    color:  rgba(184, 94, 29, 0.856);
+    font: weight 1px;
+    font-size: 4vh;
+}
+
+
+.tamanioFilasCol{
+
+    font-size: 150%;
+}
+
+/**********PRODUCTOS*************/
+
+/* PRODUCTOS-TABLA */
+
+.parrafoProductos {
+    text-align: center;
+    font-size: 1.5vw;
+    color: rgb(0, 0, 0);
+    border: 2px;
+    font-style: oblique;
+}
+
+
+
+.logo {
+    height: 100%;
+    padding-left: 80%;
+    position: relative;
+    bottom: 30px;
+    display: inline-block;
+}
+
+body {
+    font-family: 'Saira Condensed', sans-serif;
+    background-color: #FFFFFF;
+    background-image: linear-gradient(white, grey);
+}
+
+article p {
+    color: #000000;
+    font-weight: lighter;
+    font-size: 1.3vw;
+    letter-spacing: 2px;
+    margin-left: 15px;
+}
+
+.fotosGaleria {
+    height: 15vw;
+    display: inline-block;
+}
+
+.fotosGaleria:hover {
+    transform: scale(1.1, 1.1);
+    transition: all;
+    transition-duration: 500ms;
+}
+
+/************** FOOTER************* */
+
+
+
+.footer {
+    flex-direction: column;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    height: 20vh;
+    align-items: center;
+    margin-top: 10px;
+
+
+}
+
+.logosFooter {
+   
+    height:40%;
+    
+    
+}
+
+.footerLogCont{
+
+
+flex-direction: column;
+justify-items: end;
+height: 50%;
+
+}
+
+/************** FOOTER************* */
+
+/******CONTACTO******* ***** 
+Formulario de Contacto */
+
+fieldset {
+    margin-left: 1vw;
+    border-width: 1vw;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+fieldset label {
+    font-weight: bold;
+    font-size: 150%;
+    color: rgb(241, 129, 0);
+    margin-left: 1vw;
+}
+
+fieldset p {
+    color: rgb(3, 3, 3);
+    margin-left: 5px;
+    margin-top: 3vh;
+}
+
+legend {
+    color: rgb(3, 3, 3);
+    font-size: larger;
+    margin-left: 2vw;
+    margin-bottom: 1vh;
+}
+
+.leyendaContacto {
+    color: rgb(15, 15, 15);
+    font-style: oblique;
+    font-size: 165%;
+    margin-left: 15px;
+    margin-bottom: 1vh;
+}
+
+fieldset input:focus {
+    transform: scale(1.5, 1.5);
+    transition: all;
+    transition-duration: 800ms;
+}
+
+fieldset input {
+    margin-left: 1vw;
+    width: 30%;
+    height: 40%;
+}
+
+.botones:hover {
+    transform: scale(1.5, 1.5);
+    transition: all;
+    transition-duration: 800ms;
+}
+
+.botones {
+    margin-bottom: 2vh;
+    height: 4vh;
+    width: 7vw;
+    background-color: rgba(134, 123, 123, 0.822);
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 85%;
+}
+
+/*Formulario de Contacto
+
+ *********CONTACTO*********** */
+
+
+
+
+/******GALERIA*******/
+
+
+.titulosGaleria{
+
+    text-align: center;
+}
+
+
+
+.pGaleria {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.articulosGal {
+    background-color: #FFFFFF;
+}
+
+/******GALERIA*******/
+
+/**********SERVICIOS*************/
+
+
+
+.mainGrid {
+    background-image: linear-gradient(white, grey);
+    display: grid;
+    height: auto;
+    /* el ancho de las columnas */
+    grid-template-columns: 60% 40%;
+    /* el alto de las filas */
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "AB   AB1" "BB   AB1" "CC   AB1" "DD   AB2";
+    width: 100%;
+    column-gap: 3%;
+}
+
+.imgAsesoria {
+    background-image: url(../imgs/mindTech.jpg);
+    grid-area: AB1;
+    border-radius: 3%;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+/* MEDIA QUERYESSS */
+
+@media only screen and (max-width:600px) {
+    .mainGrid {
+        background-image: linear-gradient(white, grey);
+        height: auto;
+        /* el ancho de las columnas */
+        /* el alto de las filas */
+        grid-template-columns: 50% 50%;
+        grid-template-areas: "AB BB" "CC DD" "EE EE" "EE EE";
+        column-gap: 0;
+    }
+    .mobile1 {
+        grid-area: CC;
+    }
+    .mobile2 {
+        grid-area: DD;
+    }
+    .mobile3 {
+        grid-area: EE;
+        background-image: url(../imgs/techServices.png);
+    }
+}
+
+@media (min-width:600px) and (max-width: 990px) {
+    .mainGrid {
+        display: grid;
+        height: auto;
+        /* el ancho de las columnas */
+        grid-template-columns: 60% 40%;
+        /* el alto de las filas */
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas: "AB  BB" "CC  BB1" "EE  BB2" "FF  BB3";
+        width: 100%;
+        column-gap: 0;
+        background-image: linear-gradient(white, grey);
+    }
+    .mobile992 {
+        grid-template-areas: BB;
+        background-image: url(../imgs/venta.jpg);
+    }
+    .mobile {
+        grid-area: CC;
+    }
+    .mobile1 {
+        grid-area: EE;
+    }
+    .mobile2 {
+        grid-area: FF;
+    }
+    .imgAsesoria {
+        grid-area: BB;
+    }
+    .imgRedes {
+        grid-area: BB2;
+    }
+    .imgLineas {
+        background-image: url(../imgs/Lineas.jpg);
+        grid-area: BB3;
+        border-radius: 3%;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+    .imgRedes {
+        background-image: url(../imgs/redes.jpg);
+        background-size: contain;
+        grid-area: BB2;
+        border-radius: 3%;
+        background-repeat: no-repeat;
+        width: 100%;
+        margin-bottom: 3%;
+    }
+    .imgSoporte {
+        background-image: url(../imgs/tarjeta.jpg);
+        grid-area: BB1;
+        border-radius: 3%;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:990px) {
+    .mainGrid {
+        height: auto;
+        grid-template-columns: 60% 40%;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas: "AB   AB1" "BB   AB1" "CC   AB1" "DD   AB1";
+        background-image: linear-gradient(rgb(22, 22, 21), rgb(5, 3, 0));
+        column-gap: 0;
+        background-image: linear-gradient(white, grey);
+    }
+    .mobile2 {
+        grid-area: DD;
+    }
+    .imgAsesoria {
+        margin-top: 22%;
+    }
+}
