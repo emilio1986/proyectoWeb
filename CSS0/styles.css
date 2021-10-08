@@ -42,6 +42,7 @@ ul {
     font-size: 3vw;
     color: rgb(187, 93, 4);
     text-align: center;
+    margin-top:60px;
 }
 
 .encabeza2{
@@ -92,6 +93,102 @@ font-weight: bolder;
 }
 
 /*   HEADER */
+
+/*   QUERYES */
+@media(min-width:200px){
+
+    .tituloPrincipal{
+
+        font-size: 8vw;
+    }
+
+    .encabeza2{
+
+        font-size: 6vw;
+
+    }
+    section article p {
+
+        font-size: 15px ;
+    }
+
+    footer p {
+
+        font-size: 13px;
+    }
+
+
+@media(min-width:520px){
+
+    .tituloPrincipal{
+
+        font-size: 6vw;
+    }
+
+    .encabeza2{
+
+        font-size: 4vw;
+
+    }
+
+    section article p {
+
+        font-size: 20px ;
+    }
+
+    footer p {
+
+        font-size: 17px;
+    }
+
+}
+
+@media(min-width:728px){
+
+    .tituloPrincipal{
+
+        font-size: 6vw;
+    }
+
+    .encabeza2{
+
+        font-size: 4vw;
+
+    }
+
+    section article p {
+
+        font-size: 25px ;
+    }
+    footer p {
+
+        font-size: 22px;
+    }
+}
+
+@media(min-width:1024px){
+
+    .tituloPrincipal{
+
+        font-size: 3.5vw;
+    }
+
+    .encabeza2{
+
+        font-size: 1.5vw;
+
+    }
+    footer p {
+
+        font-size: 25px;
+    }
+
+   
+}
+}
+
+
+/*   QUERYES */
 
 section {
     margin-bottom: 15px;
@@ -269,7 +366,6 @@ fieldset input {
     width: 30%;
     height: 40%;
 }
-
 .botones:hover {
     transform: scale(1.5, 1.5);
     transition: all;
@@ -286,12 +382,10 @@ fieldset input {
     font-size: 85%;
 }
 
+
+
 /*Formulario de Contacto
-
  *********CONTACTO*********** */
-
-
-
 
 /******GALERIA*******/
 
@@ -301,16 +395,55 @@ fieldset input {
     text-align: center;
 }
 
-
-
-.pGaleria {
-    display: inline-block;
-    margin-bottom: 15px;
+.imagen {
+    width: 100%;
 }
 
-.articulosGal {
-    background-color: #FFFFFF;
+.imagen img {
+    width: 100%;
 }
+
+.galeria img:hover{
+
+    transform: scale(1.1, 1.1);
+    transition: all();
+    transition-duration: 1000ms;
+}
+
+.galeria {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns:3, 1fr;
+    column-gap: .5rem;
+    row-gap: .5rem;
+}
+
+
+
+
+@media(min-width:100px) {
+    .galeria {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    @media(min: width 520px) {
+        .galeria {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    @media(min-width:720px) {
+        .galeria {
+            grid-template-columns: repeat(3, 1fr);
+        }}
+
+        @media(min-width:1024px) {
+            .galeria {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+
 
 /******GALERIA*******/
 
