@@ -36,6 +36,7 @@ ul {
     height: 100%;
     display: flex;
     justify-content: space-around;
+    text-align: center;
 }
 
 .tituloPrincipal {
@@ -62,7 +63,10 @@ nav {
     position: sticky;
     top: 0px;
     background-color: black;
+    
 }
+
+
 
 h2 {
    /* color: rgba(0, 0, 0, 0.966);*/
@@ -95,6 +99,7 @@ font-weight: bolder;
 /*   HEADER */
 
 /*   QUERYES */
+
 @media(min-width:200px){
 
     .tituloPrincipal{
@@ -141,6 +146,9 @@ font-weight: bolder;
         font-size: 17px;
     }
 
+    
+    
+
 }
 
 @media(min-width:728px){
@@ -184,7 +192,7 @@ font-weight: bolder;
     }
 
    
-}
+ }
 }
 
 
