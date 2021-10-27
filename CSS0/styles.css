@@ -22,12 +22,15 @@ li {
     bottom: 40px;
 }
 
+
 nav a:hover {
     color: rgb(187, 93, 4);
     transform: scale(2, 2);
     transition: all();
     transition-duration: 1000ms;
 }
+
+ 
 
 ul {
     text-decoration: none;
@@ -43,41 +46,36 @@ ul {
     font-size: 3vw;
     color: rgb(187, 93, 4);
     text-align: center;
-    margin-top:60px;
+    margin-top: 60px;
 }
 
-.encabeza2{
-
-font-family: 'Roboto', ;
-font-style: oblique;
-font-weight: bold;
-color: rgb(rgb(255, 156, 8), green, blue);
-text-align: center;
-font-size: 1.5vw;
-margin-left: 2px;
-margin-bottom: 10px;
-
+.encabeza2 {
+    font-family: 'Roboto', ;
+    font-style: oblique;
+    font-weight: bold;
+    color: rgb(rgb(255, 156, 8), green, blue);
+    text-align: center;
+    font-size: 1.5vw;
+    margin-left: 2px;
+    margin-bottom: 10px;
 }
 
 nav {
     position: sticky;
     top: 0px;
     background-color: black;
-    
 }
 
-
-
 h2 {
-   /* color: rgba(0, 0, 0, 0.966);*/
-   color: rgba(0, 0, 0, 0.678);
+    /* color: rgba(0, 0, 0, 0.966);*/
+    color: rgba(0, 0, 0, 0.678);
     font-size: 2vw;
     margin-left: 15px;
     text-align: center;
 }
 
 header {
-    background-color:darken(orange,35);
+    background-color: darken(orange, 35);
     height: auto;
 }
 
@@ -87,116 +85,38 @@ hr {
     background-color: black;
 }
 
-.carrouselSections h5, p{
-
-
-color: rgb(187, 93, 4);
-font-size: x-large;
-font-weight: bolder;
-
-}
-
 /*   HEADER */
 
-/*   QUERYES */
+/* CAROUSSEL */
 
-@media(min-width:200px){
-
-    .tituloPrincipal{
-
-        font-size: 8vw;
-    }
-
-    .encabeza2{
-
-        font-size: 6vw;
-
-    }
-    section article p {
-
-        font-size: 15px ;
-    }
-
-    footer p {
-
-        font-size: 13px;
-    }
-
-
-@media(min-width:520px){
-
-    .tituloPrincipal{
-
-        font-size: 6vw;
-    }
-
-    .encabeza2{
-
-        font-size: 4vw;
-
-    }
-
-    section article p {
-
-        font-size: 20px ;
-    }
-
-    footer p {
-
-        font-size: 17px;
-    }
-
-    
-    
-
+.carrouselSections h5, p {
+    color: rgb(187, 93, 4);
+    font-size: x-large;
+    font-weight: bolder;
 }
 
-@media(min-width:728px){
-
-    .tituloPrincipal{
-
-        font-size: 6vw;
-    }
-
-    .encabeza2{
-
-        font-size: 4vw;
-
-    }
-
-    section article p {
-
-        font-size: 25px ;
-    }
-    footer p {
-
-        font-size: 22px;
-    }
+.imagenesCarr {
+    width: 100%;
 }
 
-@media(min-width:1024px){
-
-    .tituloPrincipal{
-
-        font-size: 3.5vw;
-    }
-
-    .encabeza2{
-
-        font-size: 1.5vw;
-
-    }
-    footer p {
-
-        font-size: 25px;
-    }
-
-   
- }
+.nav-item:hover {
+    color: rgb(90, 58, 28);
+    transform: scale(1.3, 1.3);
+    transition: all();
+    transition-duration: 1000ms;
 }
 
+/* CAROUSSEL */
 
-/*   QUERYES */
+/* MAIN */
+
+.seccionesMain {
+    text-align: center;
+}
+
+section article {
+    margin-top: 25px;
+}
 
 section {
     margin-bottom: 15px;
@@ -209,8 +129,11 @@ p i {
     color: rgba(184, 94, 29, 0.856);
     font-weight: bolder;
     height: 100%;
-   
 }
+
+/* MAIN */
+
+/**********PRODUCTOS*************/
 
 /* PRODUCTOS-TABLA */
 
@@ -221,26 +144,42 @@ p i {
     flex-wrap: inherit;
 }
 
-
 thead tr th {
-
     color: rgba(184, 94, 29, 0.856);
 }
 
-
 .titulosTabla {
-    color:  rgba(184, 94, 29, 0.856);
+    color: rgba(184, 94, 29, 0.856);
     font: weight 1px;
     font-size: 4vh;
 }
 
-
-.tamanioFilasCol{
-
+.tamanioFilasCol {
     font-size: 150%;
 }
 
-/**********PRODUCTOS*************/
+.table {
+    margin-left: 12px;
+    width: 97%;
+}
+
+.hrProd {
+    color: darkgreen;
+    height: 30px;
+    width: auto;
+    border: 3px solid rgb(32, 75, 27);
+    background-image: linear-gradient(rgba(5, 5, 5, 0.685), rgb(117, 104, 78));
+}
+
+.divHrProd {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: linear-gradient(rgb(117, 104, 78), rgba(5, 5, 5, 0.685));
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
 /* PRODUCTOS-TABLA */
 
@@ -252,7 +191,7 @@ thead tr th {
     font-style: oblique;
 }
 
-
+/**********PRODUCTOS*************/
 
 .logo {
     height: 100%;
@@ -266,6 +205,7 @@ body {
     font-family: 'Saira Condensed', sans-serif;
     background-color: #FFFFFF;
     background-image: linear-gradient(white, grey);
+    width: auto;
 }
 
 article p {
@@ -287,41 +227,7 @@ article p {
     transition-duration: 500ms;
 }
 
-/************** FOOTER************* */
-
-
-
-.footer {
-    flex-direction: column;
-    display: flex;
-    background-color: rgb(0, 0, 0);
-    height: 20vh;
-    align-items: center;
-    margin-top: 10px;
-
-
-}
-
-.logosFooter {
-   
-    height:40%;
-    
-    
-}
-
-.footerLogCont{
-
-
-flex-direction: column;
-justify-items: end;
-height: 50%;
-
-}
-
-/************** FOOTER************* */
-
-/******CONTACTO******* ***** 
-Formulario de Contacto */
+/*Formulario de Contacto */
 
 fieldset {
     margin-left: 1vw;
@@ -374,6 +280,7 @@ fieldset input {
     width: 30%;
     height: 40%;
 }
+
 .botones:hover {
     transform: scale(1.5, 1.5);
     transition: all;
@@ -390,74 +297,38 @@ fieldset input {
     font-size: 85%;
 }
 
-
-
 /*Formulario de Contacto
- *********CONTACTO*********** */
 
-/******GALERIA*******/
+*********CONTACTO*********** */
 
+/************** FOOTER************* */
 
-.titulosGaleria{
-
-    text-align: center;
+footer p {
+    font-size: 2vh;
 }
 
-.imagen {
-    width: 100%;
+.footer {
+    flex-direction: column;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    height: 20vh;
+    align-items: center;
+    margin-top: 10px;
 }
 
-.imagen img {
-    width: 100%;
+.logosFooter {
+    height: 40%;
 }
 
-.galeria img:hover{
-
-    transform: scale(1.1, 1.1);
-    transition: all();
-    transition-duration: 1000ms;
+.footerLogCont {
+    flex-direction: column;
+    justify-items: end;
+    height: 50%;
 }
 
-.galeria {
-    width: 100%;
-    margin: auto;
-    display: grid;
-    grid-template-columns:3, 1fr;
-    column-gap: .5rem;
-    row-gap: .5rem;
-}
-
-
-
-
-@media(min-width:100px) {
-    .galeria {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    @media(min: width 520px) {
-        .galeria {
-            grid-template-columns: repeat(2, 1fr);
-        }
-    }
-
-    @media(min-width:720px) {
-        .galeria {
-            grid-template-columns: repeat(3, 1fr);
-        }}
-
-        @media(min-width:1024px) {
-            .galeria {
-                grid-template-columns: repeat(4, 1fr);
-            }
-        }
-
-
-/******GALERIA*******/
+/************** FOOTER************* */
 
 /**********SERVICIOS*************/
-
-
 
 .mainGrid {
     background-image: linear-gradient(white, grey);
@@ -480,6 +351,14 @@ fieldset input {
     width: 100%;
 }
 
+.asesoria {
+    height: auto;
+}
+
+.parrafoServ {
+    font-size: 1vh;
+}
+
 /* MEDIA QUERYESSS */
 
 @media only screen and (max-width:600px) {
@@ -488,93 +367,315 @@ fieldset input {
         height: auto;
         /* el ancho de las columnas */
         /* el alto de las filas */
-        grid-template-columns: 50% 50%;
-        grid-template-areas: "AB BB" "CC DD" "EE EE" "EE EE";
-        column-gap: 0;
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: "AB" 
+                            " CC"
+                             " DD"
+                             "EE"
+                             "FF";
+        column-gap: 3px;
+        width: 100%;
     }
-    .mobile1 {
-        grid-area: CC;
+    .serviciosVenta {
+        grid-area: EE;
     }
-    .mobile2 {
+    .serviciosRedes {
         grid-area: DD;
     }
-    .mobile3 {
-        grid-area: EE;
-        background-image: url(../imgs/techServices.png);
+    .serviciosAsesoria {
+        grid-area: AB;
+    }
+    .serviciosLineas {
+        grid-area: CC;
+    }
+    .imgAsesoria {
+        background-image: url(../imgs/intel-amd.jpg);
+        grid-area: FF;
+        width: 95%;
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        border-style: groove solid;
+        margin-left: 10px;
+       
+    }
+    .parrafoServ {
+        font-size: 2vh;
+    }
+    article h2 {
+        font-size: 3vh;
+        color: rgba(184, 94, 29, 0.856);
     }
 }
 
-@media (min-width:600px) and (max-width: 990px) {
+@media (min-width:600px) {
     .mainGrid {
         display: grid;
-        height: auto;
+        height: 1200px;
         /* el ancho de las columnas */
-        grid-template-columns: 60% 40%;
+        grid-template-columns: 50% 50%;
         /* el alto de las filas */
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        grid-template-areas: "AB  BB" "CC  BB1" "EE  BB2" "FF  BB3";
+        grid-template-rows: 30% 40% 30%;
+        grid-template-areas: "A1  A2" " B1  B1 " " C1  C2 ";
         width: 100%;
-        column-gap: 0;
+        column-gap: 1px;
+        
         background-image: linear-gradient(white, grey);
-    }
-    .mobile992 {
-        grid-template-areas: BB;
-        background-image: url(../imgs/venta.jpg);
-    }
-    .mobile {
-        grid-area: CC;
-    }
-    .mobile1 {
-        grid-area: EE;
-    }
-    .mobile2 {
-        grid-area: FF;
-    }
-    .imgAsesoria {
-        grid-area: BB;
-    }
-    .imgRedes {
-        grid-area: BB2;
+         
     }
     .imgLineas {
         background-image: url(../imgs/Lineas.jpg);
-        grid-area: BB3;
+        grid-area: AB2;
         border-radius: 3%;
         background-repeat: no-repeat;
         width: 100%;
     }
     .imgRedes {
-        background-image: url(../imgs/redes.jpg);
-        background-size: contain;
-        grid-area: BB2;
-        border-radius: 3%;
+        background-image: url(../imgs/mindTech.jpg);
+        background: size 100%;;
+        grid-area: B1;
         background-repeat: no-repeat;
-        width: 100%;
-        margin-bottom: 3%;
+        width: 85vw;
+        height: auto;
+        display: flex;
+        margin-left:50px;
     }
     .imgSoporte {
         background-image: url(../imgs/tarjeta.jpg);
-        grid-area: BB1;
+        grid-area: AB2;
         border-radius: 3%;
         background-repeat: no-repeat;
         width: 100%;
+        background-size: cover;
+    }
+    .serviciosVenta {
+        grid-area: B1;
+    }
+    .parrafoServ {
+        font-size: 2vh;
+        font-style: oblique;
+        margin-top: 25px;
+        color: rgb(31, 56, 31);
+    }
+    
+    
+    .serviciosLineas {
+        grid-area: C2;
+    }
+    article h2 {
+        font-size: 3vh;
+        color: rgba(184, 94, 29, 0.856);
+    }
+    .serviciosVenta {
+        grid-area: C1;
+    }
+    
+    .serviciosRedes {
+        grid-area:A2 ;
+    }
+    .articuloServ {
+        display: flex;
+    }
+    .tituloPrincipal{
+
+        font-size: 6vw;
+    }
+
+    .encabeza2{
+
+        font-size: 3vw;
     }
 }
 
-@media only screen and (min-width:990px) {
+
+@media (min-width:990px) {
     .mainGrid {
         height: auto;
         grid-template-columns: 60% 40%;
         grid-template-rows: 1fr 1fr 1fr 1fr;
-        grid-template-areas: "AB   AB1" "BB   AB1" "CC   AB1" "DD   AB1";
-        background-image: linear-gradient(rgb(22, 22, 21), rgb(5, 3, 0));
+        grid-template-areas: "AB   AB1" "BB   AB1" "CC   AB1" "DD   AB2";
         column-gap: 0;
         background-image: linear-gradient(white, grey);
+        row-gap: 20px;
     }
+
+    .serviciosRedes{
+    grid-area: BB;
+
+    }
+
+    .serviciosLineas{
+
+    grid-area: CC;
+    }
+
     .mobile2 {
         grid-area: DD;
     }
-    .imgAsesoria {
-        margin-top: 22%;
+    
+
+    .serviciosRedes {
+        grid-area:BB ;
+    }
+
+    .serviciosVenta {
+        grid-area:DD ;
+    }
+
+    .mobile992{
+
+        grid-area: AB2;
+    }
+
+    .imgRedes{
+
+        grid-area: AB1;
+        background-size: auto;
+    }
+
+
+}
+ 
+
+/* QUERYES GENERALES FONTS ETC */
+
+@media(max-width:600px) {
+    .tituloPrincipal {
+        font-size: 4vh;
+    }
+    .encabeza2 {
+        font-size: 6vw;
+    }
+    section article p {
+        font-size: 15px;
+    }
+    footer p {
+        font-size: 2vh;
+    }
+    section h2 {
+        font-size: 3vh;
+        height: 2vh;
+        color: darkslategray;
+        margin-top: 10px;
+    }
+    .parrafoProductos {
+        text-align: center;
+        font-size: 1.5vH;
+        color: rgb(0, 0, 0);
+        border: 2px;
+        font-style: oblique;
+    }
+    .titulosTabla {
+        color: rgba(240, 230, 223, 0.856);
+        font: weight 1px;
+        font-size: 2vh;
+    }
+    .tamanioFilasCol {
+        font-size: 100%;
     }
 }
+
+
+@media(min-width:600px) {
+    .tituloPrincipal {
+        font-size: 6vw;
+    }
+    .encabeza2 {
+        font-size: 4vw;
+    }
+    section article p {
+        font-size: 20px;
+    }
+    footer p {
+        font-size: 17px;
+    }
+    section h2 {
+        font-size: 5vh;
+    }
+    .navbar-nav {
+        flex-direction: row;
+    }
+}
+ 
+
+@media(min-width:992px) {
+    .tituloPrincipal {
+        font-size: 6vw;
+    }
+    .encabeza2 {
+        font-size: 4vw;
+    }
+    section article p {
+        font-size: 25px;
+    }
+    footer p {
+        font-size: 22px;
+    }
+}
+
+@media(min-width:1200px) {
+    .tituloPrincipal {
+        font-size: 3.5vw;
+    }
+    .encabeza2 {
+        font-size: 1.5vw;
+    }
+    footer p {
+        font-size: 25px;
+    }
+}
+
+/******GALERIA*******/
+
+.titulosGaleria {
+    text-align: center;
+}
+
+.imagen {
+    width: 100%;
+}
+
+.imagen img {
+    width: 100%;
+}
+
+.galeria img:hover {
+    transform: scale(1.1, 1.1);
+    transition: all();
+    transition-duration: 1000ms;
+}
+
+.galeria {
+    width: 97%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat( 3, 1fr);
+    column-gap: .5rem;
+    row-gap: .5rem;
+}
+
+/* GALERIA QUERIES */
+
+@media(max-width:520px) {
+    .galeria {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    @media(min: width 520px) {
+        .galeria {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    @media(min-width:720px) {
+        .galeria {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+    @media(min-width:1024px) {
+        .galeria {
+            grid-template-columns: repeat(4, 1fr);
+        }
+    }
+}
+
+/******GALERIA*******/
